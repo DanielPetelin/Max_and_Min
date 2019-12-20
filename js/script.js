@@ -14,4 +14,7 @@ function getMaxValue(array) {
 
 function getMinValue(array) {
     var min = array[0];
+    for (var i = 0; i < array.lenght; i++) {
+        if (min > array[i]) min = array[i]; 
+    }
 }
