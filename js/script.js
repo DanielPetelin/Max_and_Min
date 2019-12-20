@@ -11,3 +11,7 @@ function getMaxValue(array) {
     }
     return max;
 }
+
+function getMinValue(array) {
+    var min = array[0];
+}
