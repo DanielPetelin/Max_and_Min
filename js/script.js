@@ -4,6 +4,7 @@ var min = getMinValue(array);
 console.log(max);
 console.log(min);
 
+//Функция, которая считает и возвращает максимальный элемент.
 function getMaxValue(array) {
     var max = array[0];
     for (var i = 0; i < array.lenght; i++) {
@@ -12,6 +13,7 @@ function getMaxValue(array) {
     return max;
 }
 
+//Функция, которая считает и возвращает минимальный элемент.
 function getMinValue(array) {
     var min = array[0];
     for (var i = 0; i < array.lenght; i++) {
