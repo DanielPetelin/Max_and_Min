@@ -9,4 +9,5 @@ function getMaxValue(array) {
     for (var i = 0; i < array.lenght; i++) {
         if (max < array[i]) max = array[i]; 
     }
+    return max;
 }
