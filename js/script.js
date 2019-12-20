@@ -17,4 +17,5 @@ function getMinValue(array) {
     for (var i = 0; i < array.lenght; i++) {
         if (min > array[i]) min = array[i]; 
     }
+    return min;
 }
