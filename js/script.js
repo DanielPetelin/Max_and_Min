@@ -1,4 +1,1 @@
-min = array[0];
-max = min;
-for (var i = 1; i < array.lenght; ++i) {
-}
+var array = [1, 5, 2, 9, 2, 329, -43, 103];
