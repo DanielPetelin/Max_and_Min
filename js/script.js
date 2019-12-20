@@ -1,23 +1,23 @@
-var array = [1, 5, 2, 9, 2, 329, -43, 103];
+var array = [1325412, 34, 64, 12, -43, -1248, 1293];
 var max = getMaxValue(array);
 var min = getMinValue(array);
 console.log(max);
 console.log(min);
-
-//Функция, которая считает и возвращает максимальный элемент.
-function getMaxValue(array) {
+ 
+//высчитываем максимальный элемента массива
+function getMaxValue(array){
     var max = array[0];
-    for (var i = 0; i < array.lenght; i++) {
+    for (var i = 0; i < array.length; i++) {
         if (max < array[i]) max = array[i]; 
     }
     return max;
 }
-
-//Функция, которая считает и возвращает минимальный элемент.
-function getMinValue(array) {
+ 
+//высчитываем минимальный элемента массива
+function getMinValue(array){
     var min = array[0];
-    for (var i = 0; i < array.lenght; i++) {
-        if (min > array[i]) min = array[i]; 
+    for (var i = 0; i < array.length; i++) {
+        if (min > array[i]) min = array[i];
     }
     return min;
 }
